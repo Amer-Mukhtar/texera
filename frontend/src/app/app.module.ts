@@ -117,9 +117,9 @@ import { CollabWrapperComponent } from "./common/formly/collab-wrapper/collab-wr
 import { NzSwitchModule } from "ng-zorro-antd/switch";
 import { NzRadioModule } from "ng-zorro-antd/radio";
 import { AboutComponent } from "./hub/component/about/about.component";
+import { TexeraLoginComponent } from "./hub/component/login/texera-login.component";
 import { NzLayoutModule } from "ng-zorro-antd/layout";
 import { AuthGuardService } from "./common/service/user/auth-guard.service";
-import { LocalLoginComponent } from "./hub/component/about/local-login/local-login.component";
 import { MarkdownModule } from "ngx-markdown";
 import { FileSaverService } from "./dashboard/service/user/file/file-saver.service";
 import { DragDropModule } from "@angular/cdk/drag-drop";
@@ -155,7 +155,6 @@ import { DatasetDetailComponent } from "./dashboard/component/user/user-dataset/
 import { UserDatasetVersionFiletreeComponent } from "./dashboard/component/user/user-dataset/user-dataset-explorer/user-dataset-version-filetree/user-dataset-version-filetree.component";
 import { UserDatasetFileRendererComponent } from "./dashboard/component/user/user-dataset/user-dataset-explorer/user-dataset-file-renderer/user-dataset-file-renderer.component";
 import { NzSpinModule } from "ng-zorro-antd/spin";
-import { UserDatasetListItemComponent } from "./dashboard/component/user/user-dataset/user-dataset-list-item/user-dataset-list-item.component";
 import { NgxFileDropModule } from "ngx-file-drop";
 import { NzTreeModule } from "ng-zorro-antd/tree";
 import { NzTreeViewModule } from "ng-zorro-antd/tree-view";
@@ -291,7 +290,6 @@ registerLocaleData(en);
     AdminExecutionComponent,
     UserIconComponent,
     UserAvatarComponent,
-    LocalLoginComponent,
     UserWorkflowComponent,
     UserQuotaComponent,
     RowModalComponent,
@@ -323,7 +321,6 @@ registerLocaleData(en);
     UserDatasetVersionCreatorComponent,
     DatasetDetailComponent,
     UserDatasetVersionFiletreeComponent,
-    UserDatasetListItemComponent,
     UserDatasetFileRendererComponent,
     UserDatasetStagedObjectsListComponent,
     NzModalCommentBoxComponent,
@@ -343,6 +340,7 @@ registerLocaleData(en);
     ReActStepDetailModalComponent,
     CollabWrapperComponent,
     AboutComponent,
+    TexeraLoginComponent,
     UserWorkflowListItemComponent,
     UserProjectListItemComponent,
     SortButtonComponent,
